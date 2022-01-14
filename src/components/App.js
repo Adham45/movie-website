@@ -71,9 +71,7 @@ class App extends Component {
         {this.state.totalResults > 15 && this.state.currentMovie==null ? <Pagination pages={numberOfPages} nextPage={this.nextPage} currentPage={this.state.currentPage}/> : "" }
       </div>
       </Router>
-       
       </>
-     
     );
   }
 }
